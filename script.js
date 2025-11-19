@@ -10,7 +10,7 @@ const foodOrders = [];
 function addOrder(){
   const nameInput = document.getElementById('name');
   const name = nameInput
-  const quantityInput = parseInt(document.getElementById('quantity')
+  const quantityInput = parseInt(document.getElementById('quantity'))
   const quantity = quantityInput;
 
   const order = new Orders(name, quantity);
